@@ -46,7 +46,7 @@ class BMIState extends State<BMICalculator>
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-        appBar: new AppBar(backgroundColor: Colors.purple[800],title: new Text('BMICalculator'),),
+        appBar: new AppBar(backgroundColor: Colors.brown,title: new Text('BMICalculator'),),
       body: new ListView(
         padding: const EdgeInsets.all(3.5),
         children: <Widget>[
@@ -86,7 +86,7 @@ new TextField(
              ),
              ),
 
-               color:Colors.purple[800],
+               color:Colors.brown,
                textColor: Colors.white,
              )
            ],
