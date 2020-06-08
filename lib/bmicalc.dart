@@ -98,14 +98,14 @@ new TextField(
             child: new Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                new Text (_calcResult!= null ? '_calcResult': '',
+              /*  new Text (_calcResult!= null ? _calcResult : '',
                 style: new TextStyle(
                   color: Colors.pink,
                   fontSize: 44.5,
                   fontWeight: FontWeight.w800
                 ),
                 ),
-                new Text (_result!= null ? _result : '',
+       */         new Text (_result!= null ? _result : '',
                 style: new TextStyle(
                   fontSize: 28.0
                 ) ,)
